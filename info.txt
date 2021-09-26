@@ -1,0 +1,20 @@
+mkdir simple_cypress
+cd simple_cypress
+
+npm init -y
+npm install cypress typescript
+npx tsc --init --types cypress --lib dom,es6
+echo {} > cypress.json
+
+git init
+create .gitignore
+git add .
+git commit -m "initial commit"
+
+add 2 script into package.json
+npm run cypress:open
+delete examples from integration and fixtures
+create 1st test basic.ts
+
+git add .
+
