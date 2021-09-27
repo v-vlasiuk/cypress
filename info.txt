@@ -17,4 +17,10 @@ delete examples from integration and fixtures
 create 1st test basic.ts
 
 git add .
+git commit -m "generate cypress struct and 1st test"
 
+
+npm run cypress:open
+
+git add.
+git commit -m "add custom commands into TS"
